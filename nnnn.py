@@ -235,7 +235,7 @@ canvas1.create_image( 0, 0, image = bg,
   
 
 # Create Buttons
-exit_button = Button( root, text = "ESC", command=lambda: [root.quit(), convcel()])
+exit_button = Button( root, text = "Close and Save", command=lambda: [root.quit(), convcel()])
 btn1 = Button( root, text = "Yes", command=next)
 btn2 = Button( root, text = "No", command=lambda: [search(), throw()])
 btn11 = Button( root, text = "Next", command=lambda: [next(), dormamu()])
